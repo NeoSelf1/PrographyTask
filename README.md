@@ -113,4 +113,3 @@ PrographyTask/
 
 # 사용된 라이브러리
 - Kingfisher: 효율적인 이미지 로딩 및 캐싱
-- TMDB API: 영화 데이터 제공
