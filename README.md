@@ -1,5 +1,5 @@
 # 영화 리뷰 앱
-### TMDB(The Movie Database) API를 활용한 SwiftUI 기반의 iOS 영화 리뷰 애플리케이션입니다.
+#### TMDB(The Movie Database) API를 활용한 SwiftUI 기반의 iOS 영화 리뷰 애플리케이션입니다.
 # 주요 기능
 - 다양한 카테고리별 영화 탐색
   - 현재 상영작
@@ -12,7 +12,7 @@
 - 부드러운 애니메이션이 적용된 반응형 UI
 
 # 아키텍처
-### MVVM(Model-View-ViewModel) 아키텍처 패턴과 클린 아키텍처 원칙을 따릅니다:
+#### MVVM(Model-View-ViewModel) 아키텍처 패턴과 클린 아키텍처 원칙을 따릅니다:
 - View 계층: SwiftUI 뷰
 - ViewModel 계층: UI 상태 및 비즈니스 로직 관리
 - Repository 계층: 데이터 작업 조정
