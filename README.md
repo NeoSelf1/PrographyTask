@@ -113,3 +113,9 @@ PrographyTask/
 
 # 사용된 라이브러리
 - Kingfisher: 효율적인 이미지 로딩 및 캐싱
+
+# 참고 사항
+로컬 XCConfig 파일을 통해 api Key를 보관 및 관리하고 있기 때문에, 앱 사용을 위해선 Application/Secrets.xcconfig 생성 후, 아래 내용을 작성해주셔야 합니다.
+```
+TMDB_API_KEY = {TMDB에서 발급받은 키}
+```
