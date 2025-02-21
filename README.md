@@ -29,23 +29,68 @@ MVVM(Model-View-ViewModel) 아키텍처 패턴과 클린 아키텍처 원칙을 
 
 # 프로젝트 구조
 ```
-MovieReviewApp/
-├── App/
-│   └── PrographyTaskApp.swift
-├── Presentation/
-│   ├── Home/
-│   ├── Detail/
-│   └── MyPage/
+PrographyTask/
+├── Application/
+│   ├── APIConstants
+│   ├── MainTabView
+│   └── PrographyTaskApp
 ├── Domain/
+│   ├── Entities/
+│   │   ├── Movie
+│   │   └── MovieDetail
+│   └── RepositoryInterfaces/
+│       └── MovieRepositoryProtocol
+├── Infrastructure/
+│   ├── Data/
+│   │   ├── DataSources/
+│   │   │   ├── Local/
+│   │   │   │   └── MovieLocalDataSourceProtocol
+│   │   │   └── Remote/
+│   │   │       └── MovieRemoteDataSource
+│   │   └── Repositories/
+│   │       └── MovieRepository
+│   ├── Extensions/
+│   │   ├── Animation+
+│   │   ├── Date+
+│   │   ├── Font+
+│   │   └── View+
 │   ├── Models/
-│   └── Repositories/
-├── Data/
-│   ├── Network/
-│   ├── Local/
-│   └── DTOs/
-└── Common/
-    ├── Extensions/
-    └── Utils/
+│   │   ├── MovieDetailDTO
+│   │   ├── MovieDetailEntity+
+│   │   └── MoviesAPIResponse
+│   ├── Networking/
+│   │   ├── APIEndpoint
+│   │   ├── APIError
+│   │   └── NetworkAPI
+│   └── Utility/
+│       ├── EnvironmentVar
+│       └── CoreDataStack
+└── Presentation/
+    ├── Components/
+    │   ├── Custom/
+    │   │   ├── CustomHeader
+    │   │   └── CustomTextField
+    │   └── Shared/
+    │       ├── Cell/
+    │       │   ├── HorizontalMovieCell
+    │       │   ├── MovieGridCell
+    │       │   └── VerticalMovieCell
+    │       └── Section/
+    │           ├── GenreSection
+    │           ├── RatingDropdownSection
+    │           └── RatingSection
+    └── Views/
+        ├── Detail/
+        │   ├── Component/
+        │   │   └── HeaderWithBackBtn
+        │   ├── DetailView
+        │   └── DetailViewModel
+        ├── Home/
+        │   ├── HomeView
+        │   └── HomeViewModel
+        └── MyPage/
+            ├── MyPageView
+            └── MyPageViewModel
 ```
 
 #상세 기능
