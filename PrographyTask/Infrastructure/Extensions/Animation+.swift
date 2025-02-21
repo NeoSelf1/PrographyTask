@@ -33,9 +33,6 @@ extension Animation {
         static let slow: Double = 1
     }
     
-    static var fastSpring: Animation {
-        spring(duration: Duration.fast)
-    }
     
     static var mediumSpring: Animation {
         spring(duration: Duration.medium)
@@ -45,23 +42,11 @@ extension Animation {
         easeOut(duration: Duration.fast)
     }
     
-    static var mediumEaseOut: Animation {
-        easeOut(duration: Duration.medium)
-    }
-    
     static var fastEaseInOut: Animation {
         easeInOut(duration: Duration.fast)
     }
     
-    static var mediumFastEaseInOut: Animation {
-        easeInOut(duration: Duration.mediumFast)
-    }
-    
     static var mediumEaseInOut: Animation {
         easeInOut(duration: Duration.medium)
-    }
-    
-    static var longEaseInOut: Animation {
-        easeInOut(duration: Duration.slow)
     }
 }
