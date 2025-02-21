@@ -1,5 +1,5 @@
 # 영화 리뷰 앱
-TMDB(The Movie Database) API를 활용한 SwiftUI 기반의 iOS 영화 리뷰 애플리케이션입니다.
+### TMDB(The Movie Database) API를 활용한 SwiftUI 기반의 iOS 영화 리뷰 애플리케이션입니다.
 # 주요 기능
 - 다양한 카테고리별 영화 탐색
   - 현재 상영작
@@ -12,7 +12,7 @@ TMDB(The Movie Database) API를 활용한 SwiftUI 기반의 iOS 영화 리뷰 �
 - 부드러운 애니메이션이 적용된 반응형 UI
 
 # 아키텍처
-MVVM(Model-View-ViewModel) 아키텍처 패턴과 클린 아키텍처 원칙을 따릅니다:
+### MVVM(Model-View-ViewModel) 아키텍처 패턴과 클린 아키텍처 원칙을 따릅니다:
 - View 계층: SwiftUI 뷰
 - ViewModel 계층: UI 상태 및 비즈니스 로직 관리
 - Repository 계층: 데이터 작업 조정
@@ -93,7 +93,7 @@ PrographyTask/
             └── MyPageViewModel
 ```
 
-#상세 기능
+# 상세 기능
 ## 홈 화면
 - 인기 영화 수평 스크롤 배너
 - 카테고리별 탭 네비게이션
@@ -111,6 +111,6 @@ PrographyTask/
 - 평점 기반 필터링
 - 리뷰 관리
 
-## 사용된 라이브러리
+# 사용된 라이브러리
 - Kingfisher: 효율적인 이미지 로딩 및 캐싱
 - TMDB API: 영화 데이터 제공
