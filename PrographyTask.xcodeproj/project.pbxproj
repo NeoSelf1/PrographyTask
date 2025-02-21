@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E51E6E172D68BC28005B0803 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E51E6E162D68BC25005B0803 /* .gitignore */; };
 		E56AAF052D66BE8A00354E46 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E56AAF042D66BE8A00354E46 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E51E6E162D68BC25005B0803 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		E58382B62D64CE2400AB50DC /* PrographyTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrographyTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58382CB2D64CE2600AB50DC /* PrographyTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrographyTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58382D52D64CE2600AB50DC /* PrographyTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrographyTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 		E58382AD2D64CE2400AB50DC = {
 			isa = PBXGroup;
 			children = (
+				E51E6E162D68BC25005B0803 /* .gitignore */,
 				E58382B82D64CE2400AB50DC /* PrographyTask */,
 				E58382CE2D64CE2600AB50DC /* PrographyTaskTests */,
 				E58382B72D64CE2400AB50DC /* Products */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E51E6E172D68BC28005B0803 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
